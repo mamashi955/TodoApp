@@ -16,7 +16,7 @@ public class DBConnection {
 
         String url = "jdbc:postgresql://localhost:7540/todo-db";
         String user = "postgres";
-        String password = "G1o3o5d7tennis";
+        String password = "PASSWORD";
 
         return DriverManager.getConnection(url, user, password);
     }
